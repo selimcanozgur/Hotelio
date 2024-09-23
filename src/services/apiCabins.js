@@ -5,7 +5,7 @@ export async function getCabins() {
 
   if (error) {
     console.error(error);
-    throw new Error("Odalar yüklenemedi.");
+    throw new Error("Odalar yüklenemedi");
   }
   return data;
 }
@@ -14,7 +14,7 @@ export async function deleteCabin(id) {
   const { data, error } = await supabase.from("cabins").delete().eq("id", id);
   if (error) {
     console.error(error);
-    throw new Error("Oda silienemedi.");
+    throw new Error("Oda silinemedi");
   }
   return data;
 }
