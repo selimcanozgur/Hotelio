@@ -36,6 +36,15 @@ const GlobalStyles = createGlobalStyle`
   --color-indigo-100: #e0e7ff;
   --color-indigo-700: #4338ca;
 
+  --color-amber-400:#e6b42c;
+  --color-amber-500: #eb9a10;
+  --color-amber-600: #d37609;
+
+  --color-violet-500: #614fb9;
+
+  --color-orange-300: #eab67d;
+  --color-orange-400: #e98f44;
+
   --color-red-100: #fee2e2;
   --color-red-700: #b91c1c;
   --color-red-800: #991b1b;
