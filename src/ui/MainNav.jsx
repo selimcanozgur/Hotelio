@@ -58,31 +58,31 @@ function MainNav() {
         <li>
           <StyledNavLink to="/dashboard">
             <AiOutlineHome />
-            <span>Home</span>
+            <span>Gösterge Paneli</span>
           </StyledNavLink>
         </li>
         <li>
           <StyledNavLink to="/bookings">
             <FaRegCalendarAlt />
-            <span>Bookings</span>
+            <span>Rezervasyonlar</span>
           </StyledNavLink>
         </li>
         <li>
           <StyledNavLink to="/cabins">
             <HiOutlineHomeModern />
-            <span>Cabins</span>
+            <span>Odalar</span>
           </StyledNavLink>
         </li>
         <li>
           <StyledNavLink to="/users">
             <HiUsers />
-            <span>Users</span>
+            <span>Kullanıcılar</span>
           </StyledNavLink>
         </li>
         <li>
           <StyledNavLink to="/settings">
             <IoSettings />
-            <span>Settings</span>
+            <span>Ayarlar</span>
           </StyledNavLink>
         </li>
       </NavList>
